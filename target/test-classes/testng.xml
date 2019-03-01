@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Finance">
-    <test name="Finance">
+    <test name="Finance1">
+        <parameter name = "ip" value="52.124.6.146:39721"/>
+        <classes>
+            <class name="FinanceTest"/>
+        </classes>
+    </test>
+    <test name="Finance2">
+        <parameter name = "ip" value="166.70.88.210:30352"/>
         <classes>
             <class name="FinanceTest"/>
         </classes>
